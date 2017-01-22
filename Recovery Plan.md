@@ -127,6 +127,7 @@ In these section the plan shows which sources are needed to make the recover:
 4.	Layer 3 Diagram
 
 This level 3 diagram show the solution and giving a point of view how will the Topology looks like:
+
 ![](https://cloud.githubusercontent.com/assets/22467856/22185253/613c4332-e0e2-11e6-9f62-37b9cbf41d49.png)
 
 
@@ -136,16 +137,19 @@ This level 3 diagram show the solution and giving a point of view how will the T
 When you have your VMware up and running you will do following to install a virtual machine, which can be any devices:
 
 1.	When the program is running you will create a virtual machine, by pressing on that box you will get this window
+
 ![](https://cloud.githubusercontent.com/assets/22467856/22185294/34f2d8d0-e0e3-11e6-9fd0-742162888f7e.PNG)
 
 
  
 2.	Afterwards you will press next and now you have to choose the location to your ISO file
+
 ![](https://cloud.githubusercontent.com/assets/22467856/22185314/9ef97db0-e0e3-11e6-8dce-57d73903f3f9.PNG)
 
 it’s common to have it in your download folder. 
 
 3.	Now you want to name your machine
+
 ![](https://cloud.githubusercontent.com/assets/22467856/22185331/f18aa61c-e0e3-11e6-8856-7e885587906b.PNG)
  
 
@@ -154,6 +158,7 @@ it’s common to have it in your download folder.
  
 5.	Here you have you have to press on the customize hardware button, and setup what how much memory you want the machine to run with.
 
+![](https://cloud.githubusercontent.com/assets/22467856/22185502/4692fc4c-e0e7-11e6-94ee-3dfb4f9f7b05.PNG)
 -	be careful not to give the machine too much power if your machine cant handle it!
 
 
@@ -169,6 +174,7 @@ it’s common to have it in your download folder.
 
 here is a small guide what to do then SRX router does not want to start.
 
+![](https://cloud.githubusercontent.com/assets/22467856/22185515/a3102652-e0e7-11e6-8760-dd05df905a04.PNG)
  
 To start with you will setup your router by doing the advanced option,
 and after doing the recommended settings you follow the small guide below.
@@ -176,6 +182,7 @@ and after doing the recommended settings you follow the small guide below.
 
 1.	Open your settings in vmware srx:
 
+![](https://cloud.githubusercontent.com/assets/22467856/22185522/d1b1220e-e0e7-11e6-992b-3148cbafe987.png)
 
 2.	If you do not have any serial ports click to: 
 
@@ -188,58 +195,67 @@ and after doing the recommended settings you follow the small guide below.
 
 
 3.	Scroll down until add Serial port and click to ”Next >”
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22185527/f646c4a2-e0e7-11e6-8417-da047dfc58b9.png) 
+
 4.	Select”Output to file”
 
+![](https://cloud.githubusercontent.com/assets/22467856/22185537/40fc5ea8-e0e8-11e6-9bb7-09e105f525ba.png)
  
 
 
 
 
 5.	When you need to add your file location, write”test”.
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22185557/8a9d74fc-e0e8-11e6-80fa-fd696f4bca63.png) 
+
 6.	 There he goes if you have everything done it should show the following:
- 
 
-
-
-
-
+![](https://cloud.githubusercontent.com/assets/22467856/22185575/bfe48b8c-e0e8-11e6-837f-73d341674f5a.png)
 
 
 7.	 Finally, you just check your Router is booting as well:
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22185596/02a63754-e0e9-11e6-9d97-5e5614722b76.png) 
 
 
  
 6.	Basic configuration of the routers
 The router has some general setup, like giving it a name and password. First you start with login on the internal router, with “root login”.
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22185610/3e0095e2-e0e9-11e6-977a-2f7d6660211c.png)
+
 Then you want to make your own password by go in the edit mode by typing:”cli”
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22185619/6172d8aa-e0e9-11e6-8c6d-8aee6e690ae6.png)
  
 Now you want to set the hostname for the router.
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22185635/b16a403c-e0e9-11e6-824d-18ebdfaf3e2a.PNG)
+
 Note: how the router host name now has become a part of the routers prompt.
 
 
 
 Next step is to setup the interfaces on your router by typing the following lines.
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22185647/d38d8bb0-e0e9-11e6-8624-d1fff99ff90b.png)
 
 
 
 
 Type then: “show interfaces” to see what interfaces you have now.
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22185653/ffebc140-e0e9-11e6-9789-a4a4230f4c29.png)
+
 -------------------------------------------------------------------------------------------------------------
 
 The external router use the same steps but in this case the topology only needs 1 interface for the WEB-server therefore should the last step only be: 
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22185664/214f9b72-e0ea-11e6-9edd-695005b75171.png) 
  
 
-
- 
 7.	Installment of the devices
 The devices being described here is the client and the servers. 
 
@@ -251,19 +267,23 @@ Now you simply install the Client double clicking on the machine and you will ju
 
 
 note: remember the passwords!
- 
 
- 
+![](https://cloud.githubusercontent.com/assets/22467856/22185700/a1e60dfc-e0ea-11e6-8105-81627c1d99c0.png)
+
 7.2	WEB server
 Now you run the disk like before, and following the steps on the disk itself.
 
+![](https://cloud.githubusercontent.com/assets/22467856/22185727/0b2d135a-e0eb-11e6-9a64-13d5a1ebebe0.png)
  
 
 When you are setup the different servers you must name the servers different to not make any confusion. 
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22185735/3642cda0-e0eb-11e6-88f4-eae180e0e2ca.png) 
 
 Under setup on the WEB server you should apply SSH which helps you controlling the devices from the client later in the configuration.
 7.3	DNS server
+
+![](https://cloud.githubusercontent.com/assets/22467856/22185762/89444178-e0eb-11e6-882f-7e5234eddbf8.png)
 
 Yet again you will install the server by the disk but, when you meet the section with packages to install you must stop and don’t apply anything. Because you will be able to install the correct things later.
 
@@ -272,17 +292,15 @@ Yet again you will install the server by the disk but, when you meet the section
 
 After you launch your WEB or DNS server it will ask you for a login. The Login is “root” , and the password you typed in the setup.
 
+![](https://cloud.githubusercontent.com/assets/22467856/22185814/bfb46f98-e0ec-11e6-8422-93bf85c85d78.png)
  
 
-
-
-
- 
 
 Type: “ifconfig”
 
- 
+![](https://cloud.githubusercontent.com/assets/22467856/22185840/40dd61d8-e0ed-11e6-9f7f-88162e7a495f.png)
 
+![](https://cloud.githubusercontent.com/assets/22467856/22185862/645e3fe2-e0ed-11e6-92e4-5f649ae4e959.png) 
 
 
 User can the information about addresses. Check the address you get in browser. (192.168.0.102)
@@ -587,7 +605,5 @@ Check your IP address by type the following: ifconfig.
 
 
 Than try to ping it inside your browser:
-
- 
 
 
