@@ -357,31 +357,48 @@ In this folde you need to look for the following: “PermitRootLogin” and chan
 ![](https://cloud.githubusercontent.com/assets/22467856/22187203/56c43eda-e102-11e6-99a4-679c1f4c751c.png)
 
 Log out with pressing CTRL + X and save the modifications.
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187210/a023ffb6-e102-11e6-8e13-705be5f30977.png)
 
 11.	Configure the DNS Server with dnsmasq
 
 
 Type this to get install dnsmasq into your servers.
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187217/b96dd096-e102-11e6-9c8a-150fe9446ce6.png)
+
 Enable dnsmasq
 
+![](https://cloud.githubusercontent.com/assets/22467856/22187235/d4d8462c-e102-11e6-983c-81d2bf02b37d.png)
+
 Type and going to this location:
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187241/f2c454f0-e102-11e6-97b8-5d6ff69f2b23.png)
+
 Change you dhcp-range for the following: 
 
-DHCP-Option
- 
-Set your dhcp-option for the following: ( your address)
- 
+![](https://cloud.githubusercontent.com/assets/22467856/22187250/12b4383e-e103-11e6-801b-346776e56cf7.png)
 
- 
+DHCP-Option
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187256/2d9f6722-e103-11e6-9ab5-4579e388f7a8.png)
+
+Set your dhcp-option for the following: ( your address)
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187264/5567ce16-e103-11e6-970c-ab83292a3380.png)
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187269/7a58bcbc-e103-11e6-9948-564b36f0f0dd.png)
 up
 Delete the hashtag(#) from “log-dhcp”
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187274/8f8b9a00-e103-11e6-83c0-8d4563630712.png)
+
 Do the same with “dhcp-authoritative”
- 
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187277/a4483b74-e103-11e6-9105-f034c3142327.png) 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187279/aa788f94-e103-11e6-8e6c-240a861196e7.png)
+
 Press CTRL + X and save modifications of your folder. 
 Sources
 
@@ -394,26 +411,8 @@ Juniper vSRX Router Installation
 https://fronter.com/eal/links/files.phtml/2080432588$548107012$/1st+Semester/Data+Communication/Literature/Juniper+and+Virtual+Box+GNS+SRX+configuration+V07.pdf
 
 
-
-
-
-
-
-
-
 12.	What will be included in this document in next version.
 •	Set static ips on the servers
-
-
-
-
-
-
-
-
-
-
-
 
 
 Check your DNS server
@@ -425,21 +424,15 @@ In the following steps you will learn how to check if your DNS server working. Y
 •	DNS
 
 1.	Open terminal in your Client
- 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187288/e6858e56-e103-11e6-8e72-b3e54f4c2a07.png) 
 
 2.	Type the following: ping router-int-srvlan
 (With this command you are trying to get the connection 
 
+![](https://cloud.githubusercontent.com/assets/22467856/22187294/0821f5e0-e104-11e6-8619-effc5ed0de8a.png)
+
 If it is able to ping it means DNS Server is working.
-
-
-
-
-
-
-
-
-
 
 
 External Router Config
@@ -469,28 +462,33 @@ set security zones security-zone trust interfaces ge-0/0/3.0 host-inbound-traffi
 
 # Commit the changes
 commit
-Step 2: Download WinSCP: https://winscp.net/eng/download.php 
+Step 2: Download WinSCP: https://winscp.net/eng/download.php
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187319/9a6416fe-e104-11e6-892f-4102cb691e42.png)
+
 •	Get to install it.
 •	Open your External Router in Vmware
-•	Type the following: 
+•	Type the following: ![](https://cloud.githubusercontent.com/assets/22467856/22187326/acfa62fa-e104-11e6-9eeb-3262ca1edd97.png)
 •	Then need to fine Local address of the Ext. Router:
-
+![](https://cloud.githubusercontent.com/assets/22467856/22187334/d33cedac-e104-11e6-99b5-91b7dcea1722.png)
 •	Open WinSCP
 
 •	Following on next page
 •	 
 
 The program needs to get your Local IP, username and password
- 
+![](https://cloud.githubusercontent.com/assets/22467856/22187343/f1d3fb66-e104-11e6-8628-e58da5ff71b5.png)
 
 After Login here is the external router root folder.
 
-
-
+![](https://cloud.githubusercontent.com/assets/22467856/22187355/279f8210-e105-11e6-897c-a46a4c256e97.png)
 
 •	Open Notepad++:
 
-Import file: router-ext.conf 
+Import file: router-ext.conf
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187358/469f3a52-e105-11e6-9235-c602d87ea904.png)
+
 Search on: 
 
 Type into the search:206
@@ -506,100 +504,43 @@ Overwrite it.
 
 Then go back into Vmware/Ext router
 Type in: load override  
-
-
+![](https://cloud.githubusercontent.com/assets/22467856/22187373/7aa17dc4-e105-11e6-8c77-b15314ee9560.png)
 Then commit.
 Afterwards you can try to ping another router and Let’s see if it is working or not.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 13.	Configuring the virtual machines
 
 
- 
-
 To connect the devices together you need click right to your servers, routers or your client, open the settings.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
+![](https://cloud.githubusercontent.com/assets/22467856/22187380/9c335930-e105-11e6-9f0f-73a7c11ca79a.png)
 
 Open LAN Segments:
 Add your Globan LAN Segments.
- 
+![](https://cloud.githubusercontent.com/assets/22467856/22187398/d9d7ed96-e105-11e6-8d30-9984e45f4b93.png) 
 
 
 Add your SVRLAN,USRLAN and DMZ and the Connection of the Routers.
 
-
-
- 
-
-
-
- 
+![](https://cloud.githubusercontent.com/assets/22467856/22187404/f771b65c-e105-11e6-8c42-33d1382943d1.png)
+![](https://cloud.githubusercontent.com/assets/22467856/22187413/1e291b6e-e106-11e6-81d4-b044c2c338e5.png)
 
 Change your Network Adapter from NAT to LAN Segment. (It depends on your server,router or the client)
 (See the connections in our Topology)
-
- 
-
-
-
-
+![](https://cloud.githubusercontent.com/assets/22467856/22187419/454c00ee-e106-11e6-8e5f-7d21d81dc998.png)
 
 Open your Servers and Routers
-
-
-
- 
+![](https://cloud.githubusercontent.com/assets/22467856/22187429/612ae6cc-e106-11e6-95d5-a71a1e715ca7.png)
 
 Ping your DNS Server to check the quality of connection.
+![](https://cloud.githubusercontent.com/assets/22467856/22187437/822e45bc-e106-11e6-9afc-f9b13b922fe6.png)
 
-
-
- 
 
 Check your IP address by type the following: ifconfig.
-
-
-
-
-
-
-
-
-
-
-
-
+![](https://cloud.githubusercontent.com/assets/22467856/22187443/a06f273a-e106-11e6-9b59-4a50674c37c8.png)
 
 
 Than try to ping it inside your browser:
-
+![](https://cloud.githubusercontent.com/assets/22467856/22187444/a56f3dba-e106-11e6-8e65-2dce22d74663.png)
 
