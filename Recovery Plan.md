@@ -35,9 +35,13 @@ IT Technology
 
 Authors:
 Milan Vince: mila1025@edu.eal.dk
+
 Kevin Herhold Larsen: kevi2901@edu.eal.dk
+
 Rickie Ljungberg: rick0118@edu.eal.dk
+
 Michal Skórczewski: mich74p0@edu.eal.dk
+
 Ali Abed Chayed: @edu.eal.dk
 
 
@@ -123,7 +127,7 @@ In these section the plan shows which sources are needed to make the recover:
 4.	Layer 3 Diagram
 
 This level 3 diagram show the solution and giving a point of view how will the Topology looks like:
-
+![](https://cloud.githubusercontent.com/assets/22467856/22185253/613c4332-e0e2-11e6-9f62-37b9cbf41d49.png)
 
 
  
