@@ -136,16 +136,18 @@ This level 3 diagram show the solution and giving a point of view how will the T
 When you have your VMware up and running you will do following to install a virtual machine, which can be any devices:
 
 1.	When the program is running you will create a virtual machine, by pressing on that box you will get this window
+![](https://cloud.githubusercontent.com/assets/22467856/22185294/34f2d8d0-e0e3-11e6-9fd0-742162888f7e.PNG)
 
 
  
 2.	Afterwards you will press next and now you have to choose the location to your ISO file
+![](https://cloud.githubusercontent.com/assets/22467856/22185314/9ef97db0-e0e3-11e6-8dce-57d73903f3f9.PNG)
 
 it’s common to have it in your download folder. 
 
 3.	Now you want to name your machine
+![](https://cloud.githubusercontent.com/assets/22467856/22185331/f18aa61c-e0e3-11e6-8856-7e885587906b.PNG)
  
-
 
 4.	Choose amount of diskspace is you allow the machine to use 
 
