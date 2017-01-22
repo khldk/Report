@@ -305,42 +305,33 @@ Type: “ifconfig”
 
 User can the information about addresses. Check the address you get in browser. (192.168.0.102)
 
-
- 
-
-
-
+![](https://cloud.githubusercontent.com/assets/22467856/22187112/1ecdfd32-e101-11e6-909a-c9fb91d107d6.png)
 
 If everything went good the user will get this page.
-
-
-
-
-
 
 
 9.	Setting up DHCP 
 
 
-
-
-
 Login the server and type the following.
 
+![](https://cloud.githubusercontent.com/assets/22467856/22187144/71adfa02-e101-11e6-9d27-2c88ed73ef0d.png)
  
 
 
 Then type this to install dhcp server.
 
-
-
+![](https://cloud.githubusercontent.com/assets/22467856/22187155/94f83e64-e101-11e6-9df3-9a1edac1b35e.png)
  
 
 When the server finishes the installation.
 
+![](https://cloud.githubusercontent.com/assets/22467856/22187163/b47f8620-e101-11e6-812a-64de5148a91a.png)
  
 
 Scroll down here and change subnet, netmask and range addresses as the server has.
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187172/d8f5dfae-e101-11e6-8c1c-38a431c1a4bb.png)
 
 Save it by pressing CTRL + X and restart your device
 
@@ -350,16 +341,21 @@ Save it by pressing CTRL + X and restart your device
 10.	Configure SSH for Servers
 
 
+ Type: “apt-get install openssh-server”.
  
+![](https://cloud.githubusercontent.com/assets/22467856/22187181/01832b34-e102-11e6-9fd6-89979f955604.png)
 
-Type: “apt-get install openssh-server”.
- 
-
+![](https://cloud.githubusercontent.com/assets/22467856/22187191/224dbbc2-e102-11e6-8269-de62146060ff.png)
 
 Go into the following folder:” nano /etc/ssh/sshd_config “
 
  
 In this folde you need to look for the following: “PermitRootLogin” and change it to: “yes “ 
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187201/515c234a-e102-11e6-91d3-35e3dd567678.png)
+
+![](https://cloud.githubusercontent.com/assets/22467856/22187203/56c43eda-e102-11e6-99a4-679c1f4c751c.png)
+
 Log out with pressing CTRL + X and save the modifications.
  
 
