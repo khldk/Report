@@ -37,7 +37,7 @@ Authors:
 Milan Vince: mila1025@edu.eal.dk
 Kevin Herhold Larsen: kevi2901@edu.eal.dk
 Rickie Ljungberg: rick0118@edu.eal.dk
- Michal Skórczewski: mich74p0@edu.eal.dk
+Michal Skórczewski: mich74p0@edu.eal.dk
 Ali Abed Chayed: @edu.eal.dk
 
 
@@ -75,7 +75,7 @@ The document describes the steps how to create “Project Network” which has:
 1 client 
 2 routers (internal + external)
 2 servers (WEB- and DNS server)
-
+![](https://cloud.githubusercontent.com/assets/22467856/22183844/82c8ec0a-e0c7-11e6-96f6-4b7529507425.png)
 You will not be able to follow the guideline if you don’t have installed: 
 VMware workstation Pro 12 click on the link to get to the homepage and start download by click on downloads on the left side, and choose your OS.
 
